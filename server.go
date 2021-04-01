@@ -21,6 +21,8 @@ func main() {
     fmt.Fprintf(w, "Hello World!")
   })
 
+  fmt.Println(an err)
+
   router.HandleFunc("/hit", func(w http.ResponseWriter, r *http.Request) {
     temp++
     fmt.Fprintf(w, "I have been hit %d time(s)", temp)
